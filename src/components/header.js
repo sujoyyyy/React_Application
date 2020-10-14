@@ -1,8 +1,12 @@
 import React from 'react'
+//import ReactDOM from 'react-dom';
 function Header()
-{
+{   
+    const fname = "TODO List";
     return(
-        <header className="navbar">Sujoy Datta</header>
+    <div>
+    <header className="navbar">{`${fname}`}</header>
+    </div>
     )
 }
 

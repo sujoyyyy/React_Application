@@ -3,7 +3,7 @@ function MainContent()
 {
     return(
         <div>
-            <p>Hello hello hello hello</p>
+          <input type="checkbox"></input>
         </div>
     )
 }

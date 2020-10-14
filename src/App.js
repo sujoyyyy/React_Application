@@ -5,11 +5,12 @@ import MainContent from './components/maincontent';
 import './style.css'
 function App()
 {
-  return(<div>
-   <Header/>
-   <MainContent/>
-   <Footer/>
-    </div>
+  return(
+  <div>
+      <Header/>
+      <MainContent/>
+      <Footer/>
+  </div>
   )
 }
 
