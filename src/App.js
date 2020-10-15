@@ -1,15 +1,18 @@
 import React from 'react';
-import Footer from './components/footer';
-import Header from './components/header';
-import MainContent from './components/maincontent';
-import './style.css'
+import ContactCard from './components/contactCard';
+//import './style.css'
+import contactData from './components/contactData';
 function App()
 {
+  
+  const cards = contactData.map(cont=>
+      <ContactCard key={cont.id} name={cont.name} phn={cont.phn}/>
+     );
+
+
   return(
   <div>
-      <Header/>
-      <MainContent/>
-      <Footer/>
+     {cards}
   </div>
   )
 }
